@@ -1,0 +1,22 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Espace de connexion</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center">
+            <h2>Bienvenue dans l'espace de connexion</h2>
+        </div>
+
+        <div class="mt-5 text-center">
+            <div class="container">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{ form }}
+                    <input type="submit" class="btn btn-primary"value="Se connecter">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>

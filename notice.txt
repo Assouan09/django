@@ -1,0 +1,18 @@
+--- DOCUMENTATION ---
+
+IL FAUT TOUT D'ABORD LANCER LE SERVEUR SUR VOTRE TERMINAL:
+py manage.py runserver
+
+URL POUR SE CONNECTER:
+http://127.0.0.1:8000/account/
+
+ID: Test01
+MDP: test123
+
+
+URL ADMIN:
+url pour se connecter
+http://127.0.0.1:8000/admin/
+
+ID: admin
+MDP: admin
